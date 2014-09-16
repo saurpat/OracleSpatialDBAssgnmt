@@ -1,0 +1,15 @@
+
+To compile/run java programs that use Oracle JDBC driver:
+
+>javac -classpath classes111.jar;. <your program.java>
+>java  -classpath classes111.jar;. <your program>
+
+If you are also using spatial data types:
+
+>javac -classpath classes111.jar;sdoapi.zip;. <your program.java>
+>java  -classpath classes111.jar;sdoapi.zip;. <your program>
+
+
+Note:
+
+Do *NOT* include ';' at the end of the sql statement when you submit it from your java program. If you do so, your program will return an exception.

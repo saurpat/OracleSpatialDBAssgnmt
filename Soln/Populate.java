@@ -146,7 +146,7 @@ public class Populate {
 
 			String URL = "jdbc:oracle:thin:@localhost:1522:orcl2";
 	    	String userName = "SYS as SYSDBA";
-	    	String password = "Saurpat1";
+	    	String password = "**********";//edited
 
 	    	System.out.print("Connecting to DB...");
 	    	mainConnection = DriverManager.getConnection(URL, userName, password);

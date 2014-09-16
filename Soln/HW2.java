@@ -1103,7 +1103,7 @@ public class HW2 extends javax.swing.JFrame implements ActionListener, MouseList
 
             String URL = "jdbc:oracle:thin:@localhost:1522:orcl2";
             String userName = "SYS as SYSDBA";
-            String password = "Saurpat1";
+            String password = "******";//removed password
 
             System.out.print("Connecting to DB...");
             mainConnection = DriverManager.getConnection(URL, userName, password);
